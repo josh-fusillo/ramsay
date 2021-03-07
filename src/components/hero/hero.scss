@@ -1,0 +1,19 @@
+@import './../partials/mixins';
+
+.hero {
+
+    &__image {
+        background-image: url('../assets/heropup.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 30rem;
+    }
+
+    &__header {
+        position: absolute;
+        top: 18rem;
+        left: 30rem;
+        font-size: 8rem;
+        color: rgb(214, 197, 98);
+    }
+}

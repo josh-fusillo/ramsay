@@ -1,0 +1,39 @@
+@import "../partials/fonts";
+
+.nav {
+  height: 5rem;
+  background-color: rgb(130, 190, 194);
+  width: 100%z;
+  
+
+  &__image {
+    display: none;
+    position: absolute;
+    left: 1rem;
+    height: 4rem;
+    top: 0.5rem;
+  }
+
+  &__container {
+    display: flex;   
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    }
+
+       
+
+  // &__header {
+  //     position: relative;
+  //     right: 21rem;
+  // }
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
