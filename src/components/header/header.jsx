@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import pupImage from "../assets/mixpup.jpg";import "./header.scss";
+import "./header.scss";
 import { Link } from 'react-router-dom';
-import About from '../about/about'
+
 
 export default class header extends Component {
   render() {
@@ -10,10 +10,10 @@ export default class header extends Component {
         <header>
           <nav className="nav">
             <ul className="nav__container">
-              <li><Link to="/" className="nav__home">HOME</Link></li>
-              <li><a href="#" className="nav__product">PRODUCT</a></li>
-              <li><a href="#" className="nav__contact">CONTACT</a></li>
-              <li><Link to='/about' className="nav__about">ABOUT</Link></li>
+              <li><Link to="/" className="nav__home nav__button">HOME</Link></li>
+              <li><a href="#" className="nav__product nav__button">PRODUCT</a></li>
+              <li><Link to="/contact" className="nav__contact nav__button">CONTACT</Link></li>
+              <li><Link to='/about' className="nav__about nav__button">ABOUT</Link></li>
             </ul>
           </nav>
         </header>

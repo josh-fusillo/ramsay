@@ -1,0 +1,27 @@
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    &__form {
+        width: 90%;
+        margin: auto;
+        height: 1.75rem;
+        border-radius: 5px;
+        border: 1px rgb(153, 150, 150) solid;
+    }
+
+    &__form-message {
+        width: 90%;
+        margin: auto;
+        height: 5.75rem;
+        border-radius: 5px;
+        border: 1px rgb(153, 150, 150) solid;
+    }
+
+    &__label {
+        font-weight: bold;
+        margin: .5rem 0;
+    }
+}
