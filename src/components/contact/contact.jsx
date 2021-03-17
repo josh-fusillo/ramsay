@@ -13,6 +13,7 @@ export default function contact(props) {
                 <input type="form" label ="phone" className="contact__form" /><br />
                 <label for="name" className="contact__label">MESSAGE</label>
                 <input type="form" label ="message" className="contact__form-message" /><br />
+                <button type="submit" className="contact__button">SUBMIT</button>
             </form>
         </div>
     )

@@ -24,4 +24,18 @@
         font-weight: bold;
         margin: .5rem 0;
     }
+
+    &__button {
+        width: 90%;
+        margin: .5rem auto;
+        height: 2.75rem;
+        font-size: .9rem;
+        background-color: rgb(130, 190, 194);
+        color: black;
+        font-weight: bold;
+        border: 1px rgb(153, 150, 150) solid;
+        border-radius: 5px;
+        
+        
+    }
 }
