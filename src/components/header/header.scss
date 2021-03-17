@@ -8,8 +8,6 @@
 
   &__image {
     display: none;
-    margin: 0;
-    padding: 0;
 
     @include desktop {
       display: flex;
@@ -40,37 +38,32 @@
     font-weight: 400;
 
     @include tablet {
-      
     }
 
     @include desktop {
       justify-content: space-between;
       position: relative;
       top: 1rem;
-      
-      
     }
   }
 
   &__container-two {
     display: flex;
+    justify-content: space-evenly;
     margin: auto;
-    
 
     @include desktop {
       justify-content: flex-end;
       position: relative;
-      margin: 1rem 1rem 1rem 0;
-      
+      margin: 0.85rem 1rem 1rem 0;
     }
-
   }
 
   &__button {
     border: 2px solid grey;
     border-radius: 5px;
     padding: 0.25rem;
-    margin: .25rem;
+    margin: 0.25rem;
 
     @include tablet {
       padding: 0.5rem 1rem;
@@ -78,7 +71,7 @@
     }
 
     @include desktop {
-      margin-right: .25rem;
+      margin-right: 0.25rem;
     }
   }
 }

@@ -1,8 +1,19 @@
-
+@import "../partials/mixins";
 
 .contact {
     display: flex;
     flex-direction: column;
+    margin-top: 3rem;
+
+    @include tablet {
+        width: 77%;
+        margin: 3rem auto;
+    }
+
+    @include desktop {
+        width: 50%;
+        
+    }
 
     &__form {
         width: 90%;
@@ -10,6 +21,8 @@
         height: 1.75rem;
         border-radius: 5px;
         border: 1px rgb(153, 150, 150) solid;
+
+       
     }
 
     &__form-message {
@@ -27,7 +40,7 @@
 
     &__button {
         width: 90%;
-        margin: .5rem auto;
+        margin: 1rem auto;
         height: 2.75rem;
         font-size: .9rem;
         background-color: rgb(130, 190, 194);
