@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ramsay/static/css/main.55ae28e1.chunk.css",
+    "main.css": "/ramsay/static/css/main.7eba05ac.chunk.css",
     "main.js": "/ramsay/static/js/main.09160956.chunk.js",
     "main.js.map": "/ramsay/static/js/main.09160956.chunk.js.map",
     "runtime-main.js": "/ramsay/static/js/runtime-main.0409bb4a.js",
@@ -10,7 +10,7 @@
     "static/js/3.c4e9c548.chunk.js": "/ramsay/static/js/3.c4e9c548.chunk.js",
     "static/js/3.c4e9c548.chunk.js.map": "/ramsay/static/js/3.c4e9c548.chunk.js.map",
     "index.html": "/ramsay/index.html",
-    "static/css/main.55ae28e1.chunk.css.map": "/ramsay/static/css/main.55ae28e1.chunk.css.map",
+    "static/css/main.7eba05ac.chunk.css.map": "/ramsay/static/css/main.7eba05ac.chunk.css.map",
     "static/js/2.6f3cce84.chunk.js.LICENSE.txt": "/ramsay/static/js/2.6f3cce84.chunk.js.LICENSE.txt",
     "static/media/header.scss": "/ramsay/static/media/GuaraldoPersonalUse-lggDe.3f2ccfb8.ttf",
     "static/media/hero.scss": "/ramsay/static/media/heropup.7b99e751.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0409bb4a.js",
     "static/js/2.6f3cce84.chunk.js",
-    "static/css/main.55ae28e1.chunk.css",
+    "static/css/main.7eba05ac.chunk.css",
     "static/js/main.09160956.chunk.js"
   ]
 }
