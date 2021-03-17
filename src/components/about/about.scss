@@ -1,5 +1,6 @@
 @import '../partials/mixins';
 
+
 .about {
 
     display: flex;
@@ -28,6 +29,10 @@
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+
+        @include tablet {
+            width: 90%;
+        }
 
     }
 }

@@ -7,6 +7,11 @@
         background-size: cover;
         background-position: center;
         height: 30rem;
+
+        @include tablet {
+            background-size: 60vh;
+            background-repeat: no-repeat;
+        }
     }
 
     &__header {
